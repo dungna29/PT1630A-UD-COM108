@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Bai_1.3_ToanTuSoHoc\Main.c">
+    <ClCompile Include="Main2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
