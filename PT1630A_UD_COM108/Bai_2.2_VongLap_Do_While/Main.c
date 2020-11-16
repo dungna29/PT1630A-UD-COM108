@@ -45,6 +45,7 @@ int main()
 	// while (5 < 3);//(5 < 3) = False
 
 	/*
+	* Sử dụng Switch Case tạo 3 chức năng
 	 * Bài 1: Viết 1 chương trình cho phép người dùng nhập vào từ 0 đến 100.
 	 * Nếu người dùng nhập không đúng yêu cầu thì yêu cầu người dùng nhập lại.
 	 *
