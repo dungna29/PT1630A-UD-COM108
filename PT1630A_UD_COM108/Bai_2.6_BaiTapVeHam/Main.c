@@ -10,7 +10,7 @@ int main()
 	 * 2. Nhập năm sinh vào tính ra tuổi cho người dùng
 	 * 3. In bảng cửu chương theo yêu cầu
 	 * 4. In tất cả bảng cửu chương
-	 * 
-	 * Điểm 10 đối với những bạn sử dụng từ 3 hàm có tham số truyền vào
+	 *  
+	 *	Điểm 10 đối với những bạn sử dụng từ 3 hàm có tham số truyền vào
 	 */
 }
