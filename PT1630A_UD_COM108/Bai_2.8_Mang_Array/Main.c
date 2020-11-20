@@ -12,9 +12,9 @@ int main()
 	 * 2. Mảng trong lập trình là mảng tĩnh không co giãn
 	 * 3. Index trong mảng luôn bắt đầu từ 0
 	 */
-	//Cách dùng:
-	// <kiểu dữ liệu> <arr + tên mảng>[] = {giá trị 1,giá trị 2...}; 
-	// <kiểu dữ liệu> <arr + tên mảng>[kích thước mảng số nguyên];
+	 //Cách dùng:
+	 // <kiểu dữ liệu> <arr + tên mảng>[] = {giá trị 1,giá trị 2...}; 
+	 // <kiểu dữ liệu> <arr + tên mảng>[kích thước mảng số nguyên];
 	int arrNumber[] = { 8,2,7,9 };//Khai báo 1 mảng số nguyên có mấy 4 phần tử
 	int arrNumber2[8];//Khai báo 1 mảng số nguyên có kích thước là 8 phần tử
 
@@ -39,14 +39,32 @@ int main()
 	// Dùng vòng lặp để in tất cả các phần tử trong mảng ra
 	for (int i = 0; i < 5; i++)
 	{
-		printf("\t Index %d = %d \n",i, arrNumber2[i]);
+		printf("\t Index %d = %d \n", i, arrNumber2[i]);
 	}
 
 	/*
 	 * Bài 1: Khai báo 1 mảng số nguyên gồm các phần tử sau
-	 * int arrNumber[] = {88,7,9,6,5,8};	 *  
+	 * int arrNumber[] = {88,7,9,6,5,8};	 *
 	 *  - In số 5 ra màn hình bằng câu printf.
 	 *  - In tất cả các phần tử có ở trong mảng ra màn hình
 	 *  - In tất cả các giá trị chẵn ra màn hình.
 	 */
+	 //Bài giải:
+	int arrNumber2020[] = { 88,7,9,6,5,8 };
+	printf("%d\n", arrNumber2020[4]);
+
+	//In tất cả ra  màn hình dùng
+	for (int i = 0; i < 6; i++)
+	{
+		printf("%d = %d", i, arrNumber2020[i]);
+	}
+
+	//In tất cả giá trị chẵn ra màn hình
+	for (int i = 0; i < 6; i++)
+	{
+		if (arrNumber[i] % 2 == 0)
+		{
+			printf("%d = %d", i, arrNumber2020[i]);
+		}
+	}
 }
